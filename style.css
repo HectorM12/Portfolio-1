@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color:white;
+}
+h2 {
+  color:white;
+}
+h4 {
+  color:white;
+}
+h6 {
+  color:white;
+}
+ body{
+  background-color:black;
+}
+#Hectorbtn{
+  background-color: #0fc2b6;
+  outline: 2px;
+}
+#Julybtn{
+  background-color: #0fc2b6;
+  outline: 2px;
+}
+p {
+  margin-top: 0;
+  line-height: 1.5;
+}
+select {
+  margin-bottom: 1.22rem;
+}
+.outer-wrapper {
+  background-color:  #0fc2b6;
+  padding: 6%;
+  padding-bottom: 92px;
+  text-align: center;
+}
+#postcard {
+  width: 280px;
+  height: 202px;
+  position: absolute;
+  background-image: url("../img/empty-state@2x.jpg");
+  background-size: cover;
+  box-shadow: 3px 6px 20px 0 rgba(0, 0, 0, 0.5);
+  padding-top: 58px;
+#postcard {
+    width: 406px;
+    height: 292px;
+    padding-top: 88px;
+  }
+  #state-heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 1.1;
+  color: #fff;
+  float: left;
+  width: 100%;
+}
+  @media (min-width: 960px) {
+  html {
+    font-size: 18px;
+  }
+  .outer-wrapper {
+    padding-bottom: 80px;
+  }
+  .content-wrapper {
+    max-width: 850px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  .step {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .first.step {
+    width: 300px;
+    margin-right: 94px;
+  }
+  .second.step {
+    width: 406px;
+  }
+  footer {
+    padding: 30px;
+  }
+}
