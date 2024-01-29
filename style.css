@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+   background-image: url("img/e.webp");
 }
 h1 {
   color:white;
@@ -14,9 +15,7 @@ h4 {
 h6 {
   color:white;
 }
- body{
-  background-color:black;
-}
+ 
 #Hectorbtn{
   background-color: #0fc2b6;
   outline: 2px;
@@ -33,7 +32,7 @@ select {
   margin-bottom: 1.22rem;
 }
 .outer-wrapper {
-  background-color:  #0fc2b6;
+ background-image: url("img/Canelo.jpg");
   padding: 6%;
   padding-bottom: 92px;
   text-align: center;
