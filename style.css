@@ -32,8 +32,11 @@ select {
   margin-bottom: 1.22rem;
 }
 .outer-wrapper {
- background-image: url("img/Canelo.jpg");
+ background-image: url("img/Canelo1.jpg");
   padding: 6%;
+  height: 750px;
+  width: 100%;
+  object-fit: contain;
   padding-bottom: 92px;
   text-align: center;
 }
@@ -45,10 +48,13 @@ select {
   background-size: cover;
   box-shadow: 3px 6px 20px 0 rgba(0, 0, 0, 0.5);
   padding-top: 58px;
+  justify-content: center;
+}
 #postcard {
     width: 406px;
     height: 292px;
     padding-top: 88px;
+  justify-content: center;
   }
   #state-heading {
   font-family: "Oswald", sans-serif;
